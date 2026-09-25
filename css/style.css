@@ -1,3 +1,16 @@
+/*
+-
+-
+-
+-
+-
+Configuracion General
+-
+-
+-
+-
+-
+*/
 :root {
     --primary-color: #f69f3b;
     --primary-hover: #eb6425;
@@ -30,6 +43,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+/*
+-
+-
+-
+-
+-
+header
+-
+-
+-
+-
+-
+*/
 header {
     background-color: var(--card-bg);
     border-bottom: 1px solid var(--border-color);
@@ -109,6 +135,18 @@ nav {
 #activo{
     background-color: rgb(246, 143, 59);
 }
+/*
+-
+-
+-
+-
+-
+Contactanos
+-
+-
+-
+-
+*/
 #sec-contacto {
     max-width: 1100px;
     margin: 3rem auto;
@@ -240,6 +278,19 @@ textarea.control-campo {
     background-color: var(--primary-hover);
     box-shadow: var(--shadow-sm);
 }
+/*
+-
+-
+-
+-
+-
+Casos de éxito
+-
+-
+-
+-
+-
+*/
 .tab-content{
     margin-top: 50px;
 }
@@ -331,6 +382,18 @@ textarea.control-campo {
     color: var(--primary-hover);
     border-bottom-color: var(--primary-hover);
 }
+/*
+-
+-
+-
+-
+-
+Proyecto actual
+-
+-
+-
+-
+*/
 .hero-banner {
     max-width: 900px;
     margin: 0 auto 4rem;
@@ -371,7 +434,7 @@ textarea.control-campo {
     box-shadow: var(--shadow-sm);
 }
 
-.objectives-grid {
+.objetivos-grid {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.5rem 3rem;
@@ -380,7 +443,7 @@ textarea.control-campo {
     gap: 2rem;
 }
 
-.objective-card {
+.tarjeta-objetivos {
     background-color: #ffffff;
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-md);
@@ -388,7 +451,7 @@ textarea.control-campo {
     transition: var(--transition);
 }
 
-.objective-card:hover {
+.tarjeta-objetivos:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-lg);
 }
@@ -407,17 +470,144 @@ textarea.control-campo {
     margin-bottom: 1.25rem;
 }
 
-.objective-title {
+.objetivos-title {
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--secondary-color);
     margin-bottom: 0.75rem;
 }
 
-.objective-text {
+.objetivos-text {
     color: var(--text-muted);
     font-size: 0.95rem;
 }
+/*
+-
+-
+-
+-
+-
+Sobre Nosotros
+-
+-
+-
+-
+*/
+.contenido-pestana {
+    margin-top: 50px;
+}
+
+.encabezado-seccion {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.etiqueta-seccion {
+    display: none;
+}
+
+.titulo-seccion {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+    color: var(--secondary-color);
+}
+
+.subtitulo-seccion {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+}
+
+.tarjeta-empresa {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.dato-empresa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.05rem;
+}
+
+.etiqueta-dato {
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.valor-dato {
+    color: var(--text-muted);
+}
+
+.bloque-logotipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imagen-logotipo {
+    width: 220px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.cuadricula-pilares {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.tarjeta-pilar {
+    background-color: #ffffff;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    padding: 2rem;
+    border-top: 4px solid var(--primary-color);
+    transition: var(--transition);
+}
+
+.tarjeta-pilar:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.titulo-pilar {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 0.75rem;
+}
+
+.texto-pilar {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+/*
+-
+-
+-
+-
+-
+Footer
+-
+-
+-
+-
+*/
 footer {
     background-color: #ffffff; 
     border-top: 1px solid var(--border-color);

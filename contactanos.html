@@ -1,102 +1,145 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contactanos</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="header-container">
-            <a href="#" class="logo">
-                <span>JAVALINES SOFTWARE</span>
-                <img class="logo" src="./img/javalines.png"/>
-            </a>
-            <nav class="opciones">
-                <label  class="nav-link" id="nav-objetivo" ><a href="./index.html">Sobre Nosotros</a></label>
-                <label  class="nav-link" id="nav-proyecto"><a href="./proyecto.html">Proyecto actual</a></label>
-                <label  class="nav-link" id="nav-exito"><a href="./casosExito.html">Casos de exito</a></label>
-                <label  class="nav-link" id="activo"><a href="./contactanos.html">Contáctanos</a></label>
-            </nav>
-        </div>
+      <div class="header-container">
+        <a href="#" class="logo">
+          <span>JAVALINES SOFTWARE</span>
+          <img class="logo" src="./img/javalines.png" />
+        </a>
+        <nav class="opciones">
+          <label class="nav-link" id="nav-objetivo"
+            ><a href="./index.html">Sobre Nosotros</a></label
+          >
+          <label class="nav-link" id="nav-proyecto"
+            ><a href="./proyecto.html">Proyecto actual</a></label
+          >
+          <label class="nav-link" id="nav-exito"
+            ><a href="./casosExito.html">Casos de exito</a></label
+          >
+          <label class="nav-link" id="activo"
+            ><a href="./contactanos.html">Contáctanos</a></label
+          >
+        </nav>
+      </div>
     </header>
-    
+
     <main>
-        <section id="sec-contacto" class="tab-content">
-            <div class="section-header">
-                <span class="section-tag">Comunicación</span>
-                <h2 class="section-title">Contáctanos</h2>
-                <p class="section-subtitle">¿Tienes dudas o sugerencias? Envíanos un mensaje o comunícate directamente.</p>
+      <section id="sec-contacto" class="tab-content">
+        <div class="section-header">
+          <span class="section-tag">Comunicación</span>
+          <h2 class="section-title">Contáctanos</h2>
+          <p class="section-subtitle">
+            ¿Tienes dudas o sugerencias? Envíanos un mensaje o comunícate
+            directamente.
+          </p>
+        </div>
+
+        <div class="contacto">
+          <!-- Información de Creadores y Celulares -->
+          <div class="informacion-contacto">
+            <h3>Directorio del Equipo</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem">
+              Puedes contactar directamente a los integrantes creadores:
+            </p>
+
+            <div class="tarjeta-contacto">
+              <h4>Méndez Herrera Daniel</h4>
+              <p>Celular: +52 55 1234 5678</p>
+              <p>Correo: dmendezh2400@alumno.ipn.mx</p>
             </div>
 
-            <div class="contacto">
-                <!-- Información de Creadores y Celulares -->
-                <div class="informacion-contacto">
-                    <h3>Directorio del Equipo</h3>
-                    <p style="color: var(--text-muted); font-size: 0.95rem;">Puedes contactar directamente a los integrantes creadores:</p>
-
-                    <div class="tarjeta-contacto">
-                        <h4>Méndez Herrera Daniel</h4>
-                        <p>Celular: +52 55 1234 5678</p>
-                        <p>Correo: dmendezh2400@alumno.ipn.mx</p>
-                    </div>
-
-                    <div class="tarjeta-contacto">
-                        <h4>Vega Félix Juan Eduardo</h4>
-                        <p>Celular: +52 67 6767 6767</p>
-                        <p>Correo: jvegaf2401@alumno.ipn.mx</p>
-                    </div>
-
-                    <div class="tarjeta-contacto">
-                        <h4>Mata Becerril Josué Emiliano</h4>
-                        <p>Celular: +52 55 5467 6968</p>
-                        <p>Correo: jmatab2401@alumno.ipn.mx</p>
-                    </div>
-                    
-                    <div class="tarjeta-contacto">
-                        <h4>Cruz Mérida Ian Alexander</h4>
-                        <p>Celular: +52 55 4008 4235</p>
-                        <p>Correo: icruzm2405@alumno.ipn.mx</p>
-                    </div>
-                </div>
-                
-                <form class="forma-contacto">
-                    <div class="campo-relleno">
-                        <label for="nombre">Nombre Completo</label>
-                        <input type="text" id="nombre" class="control-campo" placeholder="Ej. Juan Escutia" required>
-                    </div>
-
-                    <div class="campo-relleno">
-                        <label for="correo">Correo Electrónico</label>
-                        <input type="email" id="correo" class="control-campo" placeholder="tu@correo.com" required>
-                    </div>
-
-                    <div class="campo-relleno">
-                        <label for="asunto">Asunto</label>
-                        <input type="text" id="asunto" class="control-campo" placeholder="Consulta sobre el proyecto" required>
-                    </div>
-
-                    <div class="campo-relleno">
-                        <label for="mensaje">Mensaje</label>
-                        <textarea id="mensaje" class="control-campo" placeholder="Escribe tu mensaje aquí..." required></textarea>
-                    </div>
-
-                    <button type="submit" class="boton-enviar" style="width: 100%;">Enviar Mensaje</button>
-                </form>
+            <div class="tarjeta-contacto">
+              <h4>Vega Félix Juan Eduardo</h4>
+              <p>Celular: +52 67 6767 6767</p>
+              <p>Correo: jvegaf2401@alumno.ipn.mx</p>
             </div>
-        </section>
+
+            <div class="tarjeta-contacto">
+              <h4>Mata Becerril Josué Emiliano</h4>
+              <p>Celular: +52 55 5467 6968</p>
+              <p>Correo: jmatab2401@alumno.ipn.mx</p>
+            </div>
+
+            <div class="tarjeta-contacto">
+              <h4>Cruz Mérida Ian Alexander</h4>
+              <p>Celular: +52 55 4008 4235</p>
+              <p>Correo: icruzm2405@alumno.ipn.mx</p>
+            </div>
+          </div>
+
+          <form class="forma-contacto">
+            <div class="campo-relleno">
+              <label for="nombre">Nombre Completo</label>
+              <input
+                type="text"
+                id="nombre"
+                class="control-campo"
+                placeholder="Ej. Juan Escutia"
+                required
+              />
+            </div>
+
+            <div class="campo-relleno">
+              <label for="correo">Correo Electrónico</label>
+              <input
+                type="email"
+                id="correo"
+                class="control-campo"
+                placeholder="tu@correo.com"
+                required
+              />
+            </div>
+
+            <div class="campo-relleno">
+              <label for="asunto">Asunto</label>
+              <input
+                type="text"
+                id="asunto"
+                class="control-campo"
+                placeholder="Consulta sobre el proyecto"
+                required
+              />
+            </div>
+
+            <div class="campo-relleno">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                class="control-campo"
+                placeholder="Escribe tu mensaje aquí..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="boton-enviar" style="width: 100%">
+              Enviar Mensaje
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
     <footer>
-    <div class="contenedor-footer">
+      <div class="contenedor-footer">
         <p class="footer-descripcion">
-            <strong>Javalines Software</strong> | Desarrollo de soluciones tecnológicas integrales. 
-            El contenido, diseño visual y código fuente de esta plataforma están totalmente protegidos bajo las leyes vigentes de propiedad intelectual. 
-            Queda prohibida su reproducción parcial o total, distribución o alteración sin el consentimiento expreso de sus autores.
+          <strong>Javalines Software</strong> | Desarrollo de soluciones
+          tecnológicas integrales. El contenido, diseño visual y código fuente
+          de esta plataforma están totalmente protegidos bajo las leyes vigentes
+          de propiedad intelectual. Queda prohibida su reproducción parcial o
+          total, distribución o alteración sin el consentimiento expreso de sus
+          autores.
         </p>
         <div class="linea-divisora"></div>
-        <p class="footer-copy">© 2026 Javalines Software. Todos los derechos reservados.</p>
-    </div>
+        <p class="footer-copy">
+          © 2026 Javalines Software. Todos los derechos reservados.
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
